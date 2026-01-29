@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- metadata -->
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- title -->
+
+    <title>Reader's Paradise</title>
+
+    <!-- js Script -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- CSS -->
+
+    <style>
+        #welcome,#author{
+            font-style: italic;
+        }
+        .Quotes,.books{
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+        }
+        #quote,#book{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid grey;
+            padding: 10px;
+            width: 200px;
+            border-radius: 5%;
+            margin: 10px;
+        }
+        #comment{
+            margin: 10px;
+        }
+        #writer{
+            margin-left: auto;
+            margin-top: auto;
+        }
+        #title,#Description{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- heading -->
+
+    <h1>Reader's Paradise</h1>
+
+    <!-- Welcome paragraphs -->
+
+    <p id="welcome">Welcome to <b>Readers' Paradise</b>, a sanctuary where stories come alive
+         and imagination knows no limits. Whether you're searching for 
+         <b>heart-racing adventures, timeless classics, or thought-provoking
+          nonfiction</b>, our shelves are carefully curated to help every reader
+           discover their next favorite book.Step inside, explore freely,
+            and let your reading journey begin. </p>
+
+    <!-- Quotes from authors -->
+
+    <h2>Famous Quotes</h2>   
+    <div class="Quotes">
+        <div id="quote">
+            <q id="comment">A reader lives a thousand lives before he dies. The man who never reads lives only one.</q>
+            <p id="writer">— George R.R. Martin</p>
+        </div>
+        <div id="quote">
+            <q id="comment">So many books, so little time.</q>
+            <p id="writer">— Frank Zappa</p>
+        </div>
+    </div> 
+
+    <!-- Featured Books  -->
+
+    <h2>Featured Books</h2>  
+    <div class="books">
+        
+        <div id="book">
+            <h3>The Midnight Library</h3>
+            <p><span id="title">Author</span> : <span id="author">Matt Haig</span></p>
+            <p> <span id="Description">Description</span> : Between life and death lies a library filled with
+                 endless possibilities. Nora Seed explores alternate versions
+                  of her life, discovering what truly makes life
+                   meaningful.</p>
+        </div>
+        <div id="book">
+            <h3>Atomic Habits</h3>
+            <p><span id="title">Author</span> : <span id="author">James Clear</span></p>
+            <p> <span id="Description">Description</span> : A powerful guide to building
+                 good habits and breaking bad ones. This book shows how tiny behavioral
+                 changes can lead to remarkable personal and professional growth.</p>
+        </div>
+        <div id="book">
+            <h3>The Alchemist</h3>
+            <p><span id="title">Author</span> : <span id="author">Paulo Coelho</span></p>
+            <p> <span id="Description">Description</span> : A powerful guide to building
+                 good habits and breaking bad ones. This book shows how tiny behavioral
+                 changes can lead to remarkable personal and professional growth.</p>
+        </div>
+    </div>
+
+    <!-- Price Table -->
+
+    <h2>Book Categories & Pricing</h2>
+    <table border="1" >
+        <tr>
+            <th>Category</th>
+            <th>Price Range</th>
+            <th>Availabilty</th>
+        </tr>
+        <tr>
+            <td>Fiction</td>
+            <td>$1 - $10</td>
+            <td>Instock</td>
+        </tr>
+        <tr>
+            <td>Self-Help</td>
+            <td>$5 - $12</td>
+            <td>Limited Stock</td>
+        </tr>
+        <tr>
+            <td>Academic</td>
+            <td>$6 - $10</td>
+            <td>Pre-Order</td>
+        </tr>
+    </table>
+
+
+    <!-- Youtube video -->
+    <div style="margin-top: 10px;" >
+        <iframe src="https://www.youtube.com/embed/k2hIfLgaPxI?si=xgKOM5sDaLzfGW1F"
+         width="640" height="360" allowfullscreen ></iframe>
+    </div>
+</body>
+</html>
