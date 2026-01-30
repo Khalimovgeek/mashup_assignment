@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <style>
+        #news{
+            align-items: center;
+            text-align: center;
+        }
+        fieldset{
+            height: 150px;
+            width: 40%;
+            
+        }
+        footer{
+            align-items: center;
+            text-align: center;
+        }
+        #item{
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Sign Up for our news letter</h1>
+    <form action="" method="post" id="news">
+        <fieldset>
+            <div id="item">
+                <span>
+                    <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" required>
+                </span>
+            </div>
+            <div id="item">
+                <span>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" required>
+                </span>
+            </div>
+            <div id="item">
+                <span>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </span>
+            </div>
+            <div id="item">
+                <span>
+                    <input type="checkbox" name="cdns" id="cdns" required>
+                    <label for="cdns">I accept to the <a href="/#">terms and conditions</a></label>
+                </span>
+            </div>
+            <input style="margin-top: 10px;" type="submit" name="submit" value="submit">
+            
+        </fieldset>
+    </form>
+    <footer>
+       <p>&copy; 2026</p>
+    </footer>
+</body>
+</html>
