@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>Media Gallery</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
+        <!-- Main title -->
         <h1>Media Gallery</h1>
+
+        <!-- Welcome Paragraph -->
         <p>
             Welcome to our Media Gallery, where you can explore 
             a curated collection of video and audio content. 
@@ -16,10 +22,13 @@
             and enjoy directly from the website.
         </p>
     </header>
-    
-    <aside>
+
+    <!-- Main Content -->
+    <main>
+        <!-- I put he youtube video in main, Title for thr video -->
         <h2>Featured Video</h2>
 
+        <!-- Iframe video -->
         <iframe 
             width="560"
             height="315"
@@ -31,17 +40,29 @@
             allowfullscreen>
         This video is not supported by this browser
         </iframe>
-    </aside>
+    </main>
 
+    <!-- The aside for audio -->
     <aside>
+
+        <!-- Heading for audio -->
         <h2>Audio</h2>
-        <audio controls>
+
+        <!-- audio with controls -->
+        <audio 
+        controls
+        autoplay>
+
+        <!-- audio source -->
             <source src="audio/sample-3s.mp3" />
         </audio>
     </aside>
 
 
+    <!-- footer -->
     <footer style="text-align: center;">
+
+        <!-- copyright logo -->
        <p>&copy; 2026</p>
     </footer>
 
