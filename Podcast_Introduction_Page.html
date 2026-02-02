@@ -1,11 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>Podcast Introduction Page</title>
+
+    <!-- Style -->
+    <style>
+        p{
+            text-align: justify;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        aside{
+            align-items: center;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 30px;
+            padding: auto;
+        }
+        #copy{
+            text-align: center;
+            margin: auto;
+        }
+        .host{
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            
+        }
+        .new_aside{
+            margin: auto;
+            padding: 10px;
+            
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header>
+        <!-- Main title -->
+        <h1>The First Mic</h1>
+
+        <!-- Welcome Paragraph 1 -->
+        <p >Welcome to The First Mic, a podcast made for absolute beginners 
+            who are curious about starting their own podcast or simply love 
+            understanding how podcasts are created.In this series, we break 
+            down everything—from choosing your first topic and microphone to 
+            recording, editing, and publishing your episodes—using simple language 
+            and real examples.
+        </p>
+
+        <!-- Welcome Paragraph 2 -->
+        <p >
+            No technical background required. Just curiosity, creativity, and a willingness to learn.
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About the Podacast heading -->
+        <h2>About the Podcast</h2>
+
+        <!-- About the Podacast content -->
+        <p>The First Mic is designed to guide beginners step-by-step into 
+            the world of podcasting. Each episode focuses on one small, 
+            practical concept so you never feel overwhelmed. Whether you 
+            want to start a personal podcast, a tech talk, or a storytelling 
+            series, this podcast helps you take your first confident steps.
+        </p>
+    </main>
+
+    <!-- aside for displaying the message from host -->
+    <aside>
+
+        <!-- Heading -->
+        <h3>A short message from our host</h3>
+
+        <!-- Youtube video welcoming to the content -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hnhJdoBM10?si=x0982zs4F7uEAaGG"
+         title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </aside>
+    <!-- div Contain the aside for first episode -->
+    <div style="margin-top: 30px;">
+
+        <!-- The aside for first episode -->
+        <aside>
+
+            <!-- Heading -->
+            <h3>The First mic: episode 1</h3>
+
+            <!-- audio with controls -->
+            <audio controls> 
+                <source src="audio/sample-3s.mp3" 
+                type="audio/mp3" />
+            </audio>
+
+        </aside>
+
+    </div>
+
+    <!-- div contain the Meet our host aside and Profile image -->
+    <div class="host">
+
+        <!-- Meet our host aside -->
+        <aside class="new_aside">
+
+            <!-- Heading -->
+            <h3>Meet Our Host</h3>
+
+            <!-- About the Host -->
+            <p>
+                Hi, I&apos;m ADM, the host of The First Mic. I&apos;m a beginner-friendly content creator
+                who loves simplifying complex ideas and helping new creators take their
+                first steps into podcasting. This podcast is built on learning together,
+                experimenting, and growing one episode at a time.
+            </p>
+        </aside>
+
+        <!-- Profile Picture -->
+        <figure>
+            <img src="pictures/image.png" alt="ADM" width="100" height="100">
+            <figcaption>Fig.1 ADM</figcaption>
+        </figure>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <!-- Storage Content Heading -->
+        <h3 style="text-align: center;">Content Storage</h3>
+
+        <!-- Storage Content Body -->
+        <p>All podcast episodes and related content are securely stored using reliable 
+            digital storage systems. Audio files, episode details, and supporting resources 
+            are maintained in an organized structure to ensure easy access, smooth streaming, 
+            and future scalability as the podcast grows.
+        </p>
+
+        <!-- Copyright Tag -->
+        <p id="copy">
+            &copy; The First Mic &VerticalLine; 2026.
+        </p>
+    </footer>
 </body>
 </html>
