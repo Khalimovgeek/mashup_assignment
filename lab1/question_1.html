@@ -11,19 +11,19 @@
             <fieldset>
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="eg: adam">
+                    <input type="text" name="name" id="name" placeholder="eg: adam" required>
                 </div>
                 <div>
                     <label for="email">email</label>
-                    <input type="email" name="email" id="email" >
+                    <input type="email" name="email" id="email" value="test@example.com" required>
                 </div>
                 <div>
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required>
                 </div>
                 <div>
                     <label for="cat">Category</label>
-                    <select name="cat" id="category">
+                    <select name="cat" id="category" >
                         <option value="student">student</option>
                         <option value="employee">employee</option>
                         <option value="freelancer">freelancer</option>
@@ -31,7 +31,7 @@
                 </div>
                 <div>
                     <label for="evdate">Event Date</label>
-                    <input type="date" name="evdate" id="evdate">
+                    <input type="date" name="evdate" id="evdate" required>
                 </div>
                 <div>
                     <label for="tickets">Ticket</label>
@@ -44,11 +44,11 @@
                 </div>
                 <div>
                     <label for="payment">Online Payment</label>
-                    <input type="checkbox" name="payment" id="payment">
+                    <input type="checkbox" name="payment" id="payment" required>
                 </div>
                 <div>
                     <label for="notes">Notes</label>
-                    <textarea name="notes" id="notes" rows="5" placeholder="please enter your notes here"></textarea>
+                    <textarea name="notes" id="notes" rows="5" placeholder="please enter your notes here" ></textarea>
                 </div>
                 <div>
                     <input type="submit" value="submit">
